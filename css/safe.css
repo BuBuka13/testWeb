@@ -1,0 +1,41 @@
+.safe__container {
+    padding-top: 30px;
+    padding-bottom: 120px;
+}
+
+.safe__wrapper {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.safe__left,
+.safe__right {
+    position: relative;
+    padding: 60px 70px;
+    width: 650px;
+    height: 616px;
+    border-radius: 32px;
+    background-color: #F2F2F2;
+}
+
+.safe__title {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.safe__text {
+    margin-top: 0;
+    font-size: 20px;
+    line-height: 25px;
+    color: #666666;
+}
+
+.safe__img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
